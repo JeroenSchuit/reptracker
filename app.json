@@ -2,6 +2,7 @@
   "expo": {
     "name": "reptracker",
     "slug": "reptracker",
+    "scheme": "reptracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jeroenapp.reptracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8dcc43a-6d73-4bbd-b9d1-bf8efa323b62"
+      }
     }
   }
 }

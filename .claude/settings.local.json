@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm test:*)",
+      "Bash(grep:*)",
+      "Bash(npx expo start)",
+      "Bash(npx expo start --tunnel)",
+      "Bash(python:*)",
+      "Bash(npx expo:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
